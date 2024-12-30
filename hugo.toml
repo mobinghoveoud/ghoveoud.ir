@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://ghoveoud.ir"
 title = "Mobin Ghoveoud"
 theme = "hugo-coder"
 languagecode = "en"
@@ -6,66 +6,62 @@ defaultcontentlanguage = "en"
 
 
 [pagination]
-pagerSize = 10
-
-[services]
-[services.disqus]
+    pagerSize = 10
 
 [markup.highlight]
-style = "github-dark"
+    style = "github-dark"
 
 [params]
-  author = "Mobin Ghoveoud"
-  info = "Software Engineer | Backend Developer"
-  description = "Mobin Ghoveoud's personal website"
-  keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
-#   gravatar = "mobin.sgh@gmail.com"
+    author = "Mobin Ghoveoud"
+    info = "Software Engineer | Backend Developer"
+    description = "Mobin Ghoveoud's personal website"
+    keywords = "mobin,ghoveoud,software,engineer,backend,developer,personal,python,django"
+    avatarurl = "images/avatar.jpg"
 
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+    faviconSVG = "/img/favicon.svg"
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2020
+    since = 2020
 
-  enableTwemoji = true
+    enableTwemoji = true
 
-  colorScheme = "dark"
-  hidecolorschemetoggle = false
+    colorScheme = "dark"
+    hidecolorschemetoggle = false
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
 
 # Social links
 [[params.social]]
-  name = "Github"
-  icon = "fa-brands fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/mobinghoveoud/"
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/mobinghoveoud/"
 
 [[params.social]]
-  name = "LinkedIn"
-  icon = "fa-brands fa-linkedin fa-2x"
-  weight = 2
-  url = "https://www.linkedin.com/in/mobin-ghoveoud/"
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/mobin-ghoveoud/"
 
 [[params.social]]
-  name = "Email"
-  icon = "fa-solid fa-envelope fa-2x"
-  weight = 5
-  url = "mailto:mobin.sgh@gmail.com"
-  rel = "me"
+    name = "Email"
+    icon = "fa-solid fa-envelope fa-2x"
+    weight = 5
+    url = "mailto:mobin.sgh@gmail.com"
+    rel = "me"
 
 # Menu links
 [[menu.main]]
-  name = "About"
-  weight = 1
-  url = "about/"
+    name = "About"
+    weight = 1
+    url = "about/"
 
 [[menu.main]]
-  name = "Blog"
-  weight = 2
-  url = "blog/"
+    name = "Blog"
+    weight = 2
+    url = "blog/"
