@@ -1,0 +1,29 @@
+{{ define "content" }}
+  <section class="container list">
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="{{ .Permalink | safeURL }}">
+          {{ title (i18n (lower .Title)) | default .Title }}
+        </a>
+      </h1>
+    </header>
+    {{ .Content }}
+    <div class="posts">
+      {{- range .Paginator.Pages -}}
+      <article class="post-card">
+        <a href="{{ .Permalink | safeURL }}" class="post-card-link">
+          <div class="post-card-image">
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Title }}">
+          </div>
+          <div class="post-card-content">
+            <h2 class="post-card-title">{{ .Title }}</h2>
+            <time class="post-card-date">{{ .Date.Format "2006-01-02" }}</time>
+          </div>
+        </a>
+      </article>
+      {{- end -}}
+    </div>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}

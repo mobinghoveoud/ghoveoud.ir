@@ -4,12 +4,15 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-
 [pagination]
     pagerSize = 10
 
 [markup.highlight]
     style = "github-dark"
+
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
 
 [params]
     author = "Mobin Ghoveoud"
@@ -29,9 +32,11 @@ defaultcontentlanguage = "en"
     colorScheme = "dark"
     hidecolorschemetoggle = false
 
+    customCSS = ["css/blog-list.css", "css/toc.css"]
+    tableOfContents = true
+
 [taxonomies]
     category = "categories"
-    series = "series"
     tag = "tags"
     author = "authors"
 
@@ -57,11 +62,6 @@ defaultcontentlanguage = "en"
 
 # Menu links
 [[menu.main]]
-    name = "About"
-    weight = 1
-    url = "about/"
-
-[[menu.main]]
     name = "Blog"
-    weight = 2
+    weight = 1
     url = "blog/"
