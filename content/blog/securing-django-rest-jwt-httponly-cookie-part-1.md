@@ -124,7 +124,9 @@ SIMPLE_JWT = {
 python manage.py startapp accounts
 ```
 
-> فراموش نکنید که app جدید رو به `INSTALLED_APP` در `settings.py` اضافه کنید.
+{{< notice note >}}
+فراموش نکنید که app جدید رو به `INSTALLED_APP` در `settings.py` اضافه کنید.
+{{< /notice >}}
 
 قبل از نوشتن API ما نیاز داریم تا تنظیمات جدیدی رو برای کوکی‌های مربوط به `Access Token` و `Refresh Token` اضافه کنیم.
 
