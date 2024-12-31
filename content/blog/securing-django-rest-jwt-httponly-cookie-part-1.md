@@ -4,7 +4,7 @@ title: "افزایش امنیت API با استفاده از JWT و کوکی‌ 
 tags: ["django", "drf", "jwt", "auth", "httponly-cookie"]
 categories: ["django"]
 date: "2024-12-27"
-thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.png"
+thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg"
 ---
 
 ## مقدمه
@@ -14,7 +14,7 @@ thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-http
 در این مقاله قصد داریم در مورد نحوه پیاده‌سازی سیستم احراز هویت با `JWT` و کوکی `HttpOnly` صحبت کنیم تا بتونیم امنیت API‌هامون رو افزایش بدیم.
 
 
-{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.png" alt="Django JWT Token in HttpOnly Cookie" >}}
+{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg" alt="Django JWT Token in HttpOnly Cookie" >}}
 
 ### JWT دقیقا چیه؟
 
