@@ -1,0 +1,18 @@
+title = "Ghoveoud.ir"
+weight = 1
+languageCode = "en"
+languageName = "English"
+contentDir = "content/en"
+
+[params]
+    langcode = "en"
+    author = "Mobin Ghoveoud"
+    info = "Software Engineer | Backend Developer"
+    description = "Mobin Ghoveoud's personal website"
+    keywords = "mobin,ghoveoud,software,engineer,backend,developer,personal,python,django,web"
+    rtl = false
+
+[[menu.main]]
+    name = "Posts"
+    weight = 1
+    url = "/posts/"

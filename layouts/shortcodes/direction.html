@@ -1,0 +1,5 @@
+{{- $direction := .Get 0 -}}
+{{- $inner := .Inner | .Page.RenderString | chomp -}}
+<div style="direction: {{ $direction }};">
+  {{- $inner -}}
+</div>

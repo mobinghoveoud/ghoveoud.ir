@@ -1,0 +1,18 @@
+title = "Ghoveoud.ir"
+weight = 2
+languageCode = "fa"
+languageName = "فارسی"
+contentDir = "content/fa"
+
+[params]
+    langcode = "fa"
+    author = "محمد مبین قوه عود"
+    info = "Software Engineer | Backend Developer"
+    description = "وبلاک شخصی محمد مبین قوه عود"
+    keywords = "مبین,قوه‌عود,مهندس,نرم‌افزار,بک‌اند,برنامه‌نویس,شخصی,پایتون,جنگو,وب"
+    rtl = true
+
+[[menu.main]]
+    name = "نوشته‌ها"
+    weight = 1
+    url = "/posts/"

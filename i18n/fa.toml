@@ -1,0 +1,67 @@
+[categories]
+one = "دسته‌بندی"
+other = "دسته‌بندی‌ها"
+
+[tags]
+one = "تگ"
+other = "تگ‌ها"
+
+[series]
+one = "سری"
+other = "سری‌ها"
+
+[authors]
+one = "نویسنده"
+other = "نویسنده‌ها"
+
+[posts]
+other = "نوشته‌ها"
+
+[reading_time]
+one = "یک دقیقه مطالعه"
+other = "{{ .Count }} دقیقه مطالعه"
+
+[page_not_found]
+other = "صفحه یافت نشد."
+
+[page_does_not_exist]
+other = "این صفحه وجود ندارد."
+
+[head_back]
+other = "شما می‌توانید به <a href=\"{{ . }}\">صفحه اصلی</a> برگردید."
+
+[licensed_under]
+other = "تحت لایسنس"
+
+[powered_by]
+other = "قدرت گرفته از"
+
+[see_also]
+other = "همچنین ببینید در"
+
+[note]
+other = "یادداشت"
+
+[tip]
+other = "نکته"
+
+[example]
+other = "مثال"
+
+[question]
+other = "پرسش"
+
+[info]
+other = "اطلاعات"
+
+[warning]
+other = "هشدار"
+
+[error]
+other = "خطا"
+
+[link_to_heading]
+other = "پیوند به عنوان"
+
+[toc_title]
+other = "فهرست مطالب"

@@ -3,6 +3,8 @@ title = "Mobin Ghoveoud"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+canonifyurls = true
+enableRobotsTXT = true
 
 [pagination]
     pagerSize = 10
@@ -15,10 +17,6 @@ defaultcontentlanguage = "en"
     endLevel = 4
 
 [params]
-    author = "Mobin Ghoveoud"
-    info = "Software Engineer | Backend Developer"
-    description = "Mobin Ghoveoud's personal website"
-    keywords = "mobin,ghoveoud,software,engineer,backend,developer,personal,python,django"
     avatarurl = "images/avatar.jpg"
 
     faviconSVG = "/images/favicon.ico"
@@ -59,9 +57,3 @@ defaultcontentlanguage = "en"
     weight = 5
     url = "mailto:mobin.sgh@gmail.com"
     rel = "me"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url = "blog/"

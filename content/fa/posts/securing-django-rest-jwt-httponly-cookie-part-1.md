@@ -436,7 +436,9 @@ urlpatterns = [
 
 همچنین می‌تونید کدهای کامل پروژه رو از گیت‌هاب دریافت کنید. اگر این پروژه براتون مفید بود، خوشحال میشم به پروژه استار بدید.
 
+{{< direction ltr >}}
 [https://github.com/mobinghoveoud/drf-jwt-httponly-cookie](https://github.com/mobinghoveoud/drf-jwt-httponly-cookie)
+{{< /direction >}}
 
 اگر نظری، سوالی یا پیشنهادی دارید، لطفا در لینکدین باهام به اشتراک بذارید! 🙌
 
