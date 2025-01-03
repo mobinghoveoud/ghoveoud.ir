@@ -30,7 +30,7 @@ enableRobotsTXT = true
     colorScheme = "dark"
     hidecolorschemetoggle = false
 
-    customCSS = ["css/blog-list.css", "css/toc.css"]
+    customCSS = ["css/blog-list.css", "css/toc.css", "css/vazir.css"]
     tableOfContents = true
 
 [taxonomies]
