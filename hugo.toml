@@ -19,10 +19,6 @@ enableRobotsTXT = true
 [params]
     avatarurl = "images/avatar.jpg"
 
-    faviconSVG = "/images/favicon.svg"
-    favicon_32 = "/images/favicon-32x32.png"
-    favicon_16 = "/images/favicon-16x16.png"
-
     since = 2020
 
     enableTwemoji = true
