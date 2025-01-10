@@ -4,7 +4,7 @@ title: "افزایش امنیت API با استفاده از JWT و کوکی‌ 
 tags: ["django", "drf", "jwt", "auth", "httponly-cookie"]
 categories: ["django"]
 date: "2024-12-27"
-thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg"
+thumbnail: "/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg"
 ---
 
 ## مقدمه
@@ -14,7 +14,7 @@ thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-http
 در این مقاله قصد داریم در مورد نحوه پیاده‌سازی سیستم احراز هویت با `JWT` و کوکی `HttpOnly` صحبت کنیم تا بتونیم امنیت API‌هامون رو افزایش بدیم.
 
 
-{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg" alt="Django JWT Token in HttpOnly Cookie" >}}
+{{< figure src="/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg" alt="Django JWT Token in HttpOnly Cookie" >}}
 
 ### JWT دقیقا چیه؟
 
@@ -24,7 +24,7 @@ JWT یا همون `JSON Web Token` یک استاندارد برای انتقال
 2. **Payload**: داده‌های اصلی مثل شناسه کاربر یا نقش رو نگه می‌داره. 
 3. **Signature**: با استفاده از یک کلید خصوصی تولید میشه و مطمئن میشه که محتوا دستکاری نشده.
 
-{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/jwt.png" alt="Django JWT Token in HttpOnly Cookie" >}}
+{{< figure src="/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/jwt.png" alt="Django JWT Token in HttpOnly Cookie" >}}
 
 اما چرا باید از JWT استفاده کنیم؟ مهم‌ترین مزیتش اینه که stateless هست، یعنی نیازی نیست سرور برای احراز هویت، اطلاعات توکن رو در دیتابیس ذخیره کنه. این باعث میشه سیستم مقیاس‌پذیرتر بشه و از کوئری‌های اضافی به دیتابیس جلوگیری بشه.
 سیستم JWT از دو نوع توکن استفاده می‌کنه:
@@ -433,6 +433,8 @@ urlpatterns = [
 ## در بخش دوم چه مواردی بررسی خواهد شد؟
 
 خب تا اینجا در بخش اول مقاله با مفاهیم اصلی JWT و چالش‌هایی که ممکنه در استفاده از اون پیش بیاد آشنا شدیم و سعی کردیم یک سیستم احراز هویت امن با استفاده از JWT و کوکی‌های HttpOnly پیاده‌سازی کنیم. اما این پایان کار نیست! در بخش دوم مقاله قراره به موضوعات دیگه‌ای مثل پیاده‌سازی `Logout API` و راهکارهای جلوگیری از حملات `CSRF` بپردازیم.
+
+بخش دوم مقاله رو در [اینجا]({{< relref "posts/securing-django-rest-jwt-httponly-cookie-part-2.md" >}}) بخونید.
 
 همچنین می‌تونید کدهای کامل پروژه رو از گیت‌هاب دریافت کنید. اگر این پروژه براتون مفید بود، خوشحال میشم به پروژه استار بدید.
 

@@ -4,7 +4,7 @@ title: "Securing Django Rest Framework with JWT Authentication in HttpOnly Cooki
 tags: ["django", "drf", "jwt", "auth", "httponly-cookie"]
 categories: ["django"]
 date: "2025-01-03"
-thumbnail: "/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg"
+thumbnail: "/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg"
 ---
 
 ## Introduction
@@ -15,7 +15,7 @@ One crucial aspect of using JWT is where the tokens are stored. If tokens are st
 
 In this article, we’ll discuss how to implement an authentication system using `JWT` and `HttpOnly` cookies to enhance the security of our APIs.
 
-{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg" alt="Django JWT Token in HttpOnly Cookie" >}}
+{{< figure src="/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/drf-jwt-httponly-part-1.jpg" alt="Django JWT Token in HttpOnly Cookie" >}}
 
 ### What is JWT?
 
@@ -25,7 +25,7 @@ JWT or `JSON Web Token`, is a standard for securely transferring information bet
 2. **Payload**: Holds the main data, such as user ID or role.
 3. **Signature**: Created using a private key to ensure the content hasn’t been changed along the way.
 
-{{< figure src="/images/securing-django-rest-jwt-httponly-cookie-part-1/jwt.png" alt="Django JWT Token in HttpOnly Cookie" >}}
+{{< figure src="/images/posts/securing-django-rest-jwt-httponly-cookie-part-1/jwt.png" alt="Django JWT Token in HttpOnly Cookie" >}}
 
 The main advantage of using JWT is that it's stateless, meaning the server doesn’t need to store token information in a database for authentication. This makes the system more scalable and prevents unnecessary database queries.
 
