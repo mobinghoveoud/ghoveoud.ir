@@ -307,7 +307,7 @@ For requests that do not include a HTML form, Django cannot automatically includ
 
 In these two parts of the article, we covered the key aspects of implementing an authentication system using JWT and HTTPOnly cookies. Remember, there are always more details to explore and learn. _Never stop learning and enhancing your skills!_
 
-To wrap up, here are some questions to ponder. If you find the answers, feel free to share them in the comments on [LinkedIn](https://linkedin.com/in/mobin-ghoveoud).
+To wrap up, here are some questions to ponder. If you find the answers, feel free to share them in the comments on [LinkedIn](https://www.linkedin.com/posts/mobin-ghoveoud_%DA%86%DA%AF%D9%88%D9%86%D9%87-%DB%8C%DA%A9-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2-%D9%87%D9%88%DB%8C%D8%AA-%D8%A7%D9%85%D9%86-%D8%A8%D8%A7-jwt-%D9%88-activity-7284147108201328640-4BaK).
 
 {{< notice question >}}
 We mentioned that the SimpleJWT library uses a Blacklist strategy for token management. However, upon closer examination, this might not be entirely accurate. How do you think this library actually implements this feature?
@@ -323,7 +323,7 @@ What do you think is the difference between the main CSRF token and the masked t
 
 LinkedIn Post:
 
-[linkedin.com/in/mobin-ghoveoud](https://linkedin.com/in/mobin-ghoveoud)
+[linkedin.com/in/mobin-ghoveoud](https://www.linkedin.com/posts/mobin-ghoveoud_%DA%86%DA%AF%D9%88%D9%86%D9%87-%DB%8C%DA%A9-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2-%D9%87%D9%88%DB%8C%D8%AA-%D8%A7%D9%85%D9%86-%D8%A8%D8%A7-jwt-%D9%88-activity-7284147108201328640-4BaK)
 
 GitHub Project:
 
