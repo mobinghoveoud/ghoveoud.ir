@@ -434,6 +434,8 @@ urlpatterns = [
 
 In the first part of the article, we learned about the key concepts of JWT and the challenges that can arise when using it. We also implemented a secure authentication system using JWT and HttpOnly cookies. But this isn't the end! In Part 2 of the article, we will cover other topics, such as implementing a `Logout API` and strategies to prevent `CSRF` attacks.
 
+Read the second part of the article [here]({{< relref "posts/securing-django-rest-jwt-httponly-cookie-part-2.md" >}}).
+
 You can also find the complete project code on GitHub. If you found this project helpful, I'd appreciate it if you could give it a star.
 
 [https://github.com/mobinghoveoud/drf-jwt-httponly-cookie](https://github.com/mobinghoveoud/drf-jwt-httponly-cookie)
